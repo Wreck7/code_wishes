@@ -22,7 +22,8 @@ A small Python script that downloads a YouTube track locally (audio only), start
 ```bash
 python3 -m venv .venv
 . .venv/bin/activate
-pip install -U pip yt-dlp imageio-ffmpeg pygame
+# pip install -U pip yt-dlp imageio-ffmpeg pygame
+pip install -r requirements.txt
 ```
 
 ## Run
